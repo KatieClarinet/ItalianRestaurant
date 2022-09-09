@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 226, 150);
+    width: 100vw;
+}
+
+/* .left { 
+    width: 50vw;
+}
+
+.right {
+    background-color: rgb(163, 138, 187);
+    width: 50vw;
+    
+} */
