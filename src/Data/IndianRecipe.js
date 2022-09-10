@@ -1061,6 +1061,912 @@ const indianRecipe = [{
     ],
     "originalId": null,
     "spoonacularSourceUrl": "https://spoonacular.com/indian-butter-chicken-647799"
+},
+{
+    "vegetarian": false,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": false,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 3,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 1,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 131.48,
+    "extendedIngredients": [
+        {
+            "id": 11711111,
+            "aisle": "Meat",
+            "image": "chicken-bones.jpg",
+            "consistency": "SOLID",
+            "name": "chicken bone",
+            "nameClean": "chicken bones",
+            "original": "1 1/2 pounds skinless chicken drumsticks [bone in works best]",
+            "originalName": "skinless chicken drumsticks [bone in works best]",
+            "amount": 1.5,
+            "unit": "pounds",
+            "meta": [
+                "skinless"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.5,
+                    "unitShort": "lb",
+                    "unitLong": "pounds"
+                },
+                "metric": {
+                    "amount": 680.389,
+                    "unitShort": "g",
+                    "unitLong": "grams"
+                }
+            }
+        },
+        {
+            "id": 4582,
+            "aisle": "Oil, Vinegar, Salad Dressing",
+            "image": "vegetable-oil.jpg",
+            "consistency": "LIQUID",
+            "name": "canola oil",
+            "nameClean": "cooking oil",
+            "original": "1 tablespoon canola oil for brushing",
+            "originalName": "canola oil for brushing",
+            "amount": 1.0,
+            "unit": "tablespoon",
+            "meta": [
+                "for brushing"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                }
+            }
+        },
+        {
+            "id": 1001116,
+            "aisle": "Milk, Eggs, Other Dairy",
+            "image": "plain-yogurt.jpg",
+            "consistency": "LIQUID",
+            "name": "plain yogurt",
+            "nameClean": "plain yogurt",
+            "original": "3/4 cup plain yogurt",
+            "originalName": "plain yogurt",
+            "amount": 0.75,
+            "unit": "cup",
+            "meta": [
+                "plain"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 0.75,
+                    "unitShort": "cups",
+                    "unitLong": "cups"
+                },
+                "metric": {
+                    "amount": 177.441,
+                    "unitShort": "ml",
+                    "unitLong": "milliliters"
+                }
+            }
+        },
+        {
+            "id": 9152,
+            "aisle": "Produce",
+            "image": "lemon-juice.jpg",
+            "consistency": "LIQUID",
+            "name": "lemon juice",
+            "nameClean": "lemon juice",
+            "original": "1 tablespoon lemon juice [preferably freshly squeezed]",
+            "originalName": "lemon juice [preferably freshly squeezed]",
+            "amount": 1.0,
+            "unit": "tablespoon",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                }
+            }
+        },
+        {
+            "id": 2009,
+            "aisle": "Spices and Seasonings",
+            "image": "chili-powder.jpg",
+            "consistency": "SOLID",
+            "name": "chili powder",
+            "nameClean": "chili powder",
+            "original": "2 teaspoons Red chili powder [or Cayenne powder] (as per taste)",
+            "originalName": "Red chili powder [or Cayenne powder] (as per taste)",
+            "amount": 2.0,
+            "unit": "teaspoons",
+            "meta": [
+                "red",
+                "per taste)"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 4582,
+            "aisle": "Oil, Vinegar, Salad Dressing",
+            "image": "vegetable-oil.jpg",
+            "consistency": "LIQUID",
+            "name": "oil",
+            "nameClean": "cooking oil",
+            "original": "1 teaspoon oil",
+            "originalName": "oil",
+            "amount": 1.0,
+            "unit": "teaspoon",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "tsp",
+                    "unitLong": "teaspoon"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "tsp",
+                    "unitLong": "teaspoon"
+                }
+            }
+        },
+        {
+            "id": 1002013,
+            "aisle": "Spices and Seasonings",
+            "image": "ground-coriander.jpg",
+            "consistency": "SOLID",
+            "name": "coriander powder",
+            "nameClean": "ground coriander",
+            "original": "1 1/2 teaspoons dry coriander powder",
+            "originalName": "dry coriander powder",
+            "amount": 1.5,
+            "unit": "teaspoons",
+            "meta": [
+                "dry"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 1.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 10111215,
+            "aisle": "Produce;Ethnic Foods",
+            "image": "garlic-paste.png",
+            "consistency": "SOLID",
+            "name": "garlic paste",
+            "nameClean": "garlic paste",
+            "original": "1 1/2 teaspoons fresh garlic paste",
+            "originalName": "fresh garlic paste",
+            "amount": 1.5,
+            "unit": "teaspoons",
+            "meta": [
+                "fresh"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 1.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 93754,
+            "aisle": "Ethnic Foods",
+            "image": "ginger-garlic-paste.png",
+            "consistency": "SOLID",
+            "name": "ginger paste",
+            "nameClean": "ginger paste",
+            "original": "1 1/2 teaspoons fresh ginger paste",
+            "originalName": "fresh ginger paste",
+            "amount": 1.5,
+            "unit": "teaspoons",
+            "meta": [
+                "fresh"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 1.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 2043,
+            "aisle": "Spices and Seasonings",
+            "image": "turmeric.jpg",
+            "consistency": "SOLID",
+            "name": "turmeric powder",
+            "nameClean": "turmeric",
+            "original": "1/2 teaspoon turmeric powder",
+            "originalName": "turmeric powder",
+            "amount": 0.5,
+            "unit": "teaspoon",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 98963,
+            "aisle": "Spices and Seasonings",
+            "image": "methi.png",
+            "consistency": "SOLID",
+            "name": "fenugreek leaves",
+            "nameClean": "dried fenugreek leaves",
+            "original": "2 teaspoons dry fenugreek leaves [kasuri methi, available at indian stores]",
+            "originalName": "dry fenugreek leaves [kasuri methi, available at indian stores]",
+            "amount": 2.0,
+            "unit": "teaspoons",
+            "meta": [
+                "dry"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 1002014,
+            "aisle": "Spices and Seasonings",
+            "image": "ground-cumin.jpg",
+            "consistency": "SOLID",
+            "name": "ground cumin",
+            "nameClean": "cumin",
+            "original": "1/2 teaspoon ground cumin powder",
+            "originalName": "ground cumin powder",
+            "amount": 0.5,
+            "unit": "teaspoon",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 1012010,
+            "aisle": "Spices and Seasonings",
+            "image": "cinnamon.jpg",
+            "consistency": "SOLID",
+            "name": "ground cinnamon",
+            "nameClean": "ground cinnamon",
+            "original": "1/4 teaspoon ground cinnamon",
+            "originalName": "ground cinnamon",
+            "amount": 0.25,
+            "unit": "teaspoon",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 0.25,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 0.25,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 2047,
+            "aisle": "Spices and Seasonings",
+            "image": "salt.jpg",
+            "consistency": "SOLID",
+            "name": "salt",
+            "nameClean": "table salt",
+            "original": "Salt to taste",
+            "originalName": "Salt to taste",
+            "amount": 1.0,
+            "unit": "serving",
+            "meta": [
+                "to taste"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "serving",
+                    "unitLong": "serving"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "serving",
+                    "unitLong": "serving"
+                }
+            }
+        },
+        {
+            "id": 1461111,
+            "aisle": "Baking",
+            "image": "food-coloring.png",
+            "consistency": "SOLID",
+            "name": "orange food color",
+            "nameClean": "orange food color",
+            "original": "Few drops of orange food color [optional]",
+            "originalName": "Few of orange food color [optional]",
+            "amount": 3.0,
+            "unit": "drops",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 3.0,
+                    "unitShort": "drops",
+                    "unitLong": "drops"
+                },
+                "metric": {
+                    "amount": 3.0,
+                    "unitShort": "drops",
+                    "unitLong": "drops"
+                }
+            }
+        }
+    ],
+    "id": 647867,
+    "title": "Indian Tandoori Chicken",
+    "readyInMinutes": 45,
+    "servings": 3,
+    "sourceUrl": "https://www.foodista.com/recipe/ZCKFK3XV/indian-tandoori-chicken",
+    "image": "https://spoonacular.com/recipeImages/647867-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "Indian Tandoori Chicken is a <b>gluten free</b> recipe with 3 servings. One portion of this dish contains around <b>3g of protein</b>, <b>8g of fat</b>, and a total of <b>107 calories</b>. For <b>$1.31 per serving</b>, this recipe <b>covers 4%</b> of your daily requirements of vitamins and minerals. From preparation to the plate, this recipe takes approximately <b>approximately 45 minutes</b>. 1 person were impressed by this recipe. If you have ginger paste, ground cumin powder, coriander powder, and a few other ingredients on hand, you can make it. It is brought to you by Foodista. Only a few people really liked this Indian dish. All things considered, we decided this recipe <b>deserves a spoonacular score of 11%</b>. This score is rather bad. <a href=\"https://spoonacular.com/recipes/indian-tandoori-bbq-chicken-278229\">Indian Tandoori BBQ Chicken</a>, <a href=\"https://spoonacular.com/recipes/tandoori-cauliflower-with-indian-spiced-quinoa-495272\">Tandoori Cauliflower with Indian-Spiced Quinoa</a>, and <a href=\"https://spoonacular.com/recipes/tandoori-chicken-74114\">Tandoori Chicken</a> are very similar to this recipe.",
+    "cuisines": [
+        "Indian",
+        "Asian"
+    ],
+    "dishTypes": [],
+    "diets": [
+        "gluten free"
+    ],
+    "occasions": [],
+    "winePairing": {
+        "pairedWines": [
+            "chenin blanc",
+            "gewurztraminer",
+            "riesling"
+        ],
+        "pairingText": "Asian works really well with Chenin Blanc, Gewurztraminer, and Riesling. The best wine for Asian food depends on the cuisine and dish - of course - but these acidic whites pair with a number of traditional meals, spicy or not. The Leo Steen Saini Vineyard Chenin Blanc with a 4.4 out of 5 star rating seems like a good match. It costs about 24 dollars per bottle.",
+        "productMatches": [
+            {
+                "id": 464148,
+                "title": "Leo Steen Saini Vineyard Chenin Blanc",
+                "description": "Like being transported to a spring meadow, this lovely wine displays enticing aromas of chamomile, lemon verbena, thyme and zesty citrus. On the long, refreshing palate, excellent natural acidity and wet gravel minerality bring beautiful energy to the wine, carrying flavors of green apple and Anjou pear to a bright, focused finish.",
+                "price": "$23.99",
+                "imageUrl": "https://spoonacular.com/productImages/464148-312x231.jpg",
+                "averageRating": 0.8800000000000001,
+                "ratingCount": 5.0,
+                "score": 0.8175000000000001,
+                "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fleo-steen-saini-vineyard-chenin-blanc-2014%2F162565"
+            }
+        ]
+    },
+    "instructions": "Wash the chicken pieces thoroughly & pat dry with a paper towel.\nMake incisions with a sharp knife on thick parts of the chicken pieces deep enough to reach the bone.\nApply a mixture one tablespoon lemon juice and salt over the chicken and set aside for half an hour.\nFor the marinade, tie up yogurt in a piece of muslin /cheese cloth and hang over a bowl for fifteen to twenty minutes.\nRemove the thick yogurt into another bowl. Beat the yogurt for about 2 minutes to remove all lumps .Add the remaining ingredients of the marinade to the yogurt and mix well.\nRub this marinade over the chicken pieces.Put the chicken pieces and marinade in a bowl ,cover the bowl with a plastic wrap and marinate overnight or for at least 6-7 hours in a refrigerator.\nFor cooking , you can do any one of the following:\nThis is what I do: Preheat the oven at 450 F broiler mode.Line a baking sheet with aluminum foil and arrange the chicken pieces on it.Brush the marinated chicken pieces with oil/butter. Tip the sheet inside the oven on top rack and cook for about 22-25 minutes flipping it after 15 minutes till chicken is done but still tender.You may get some burnt marks on the chicken but thats okay!After the chicken is done,take a small bowl and light a little piece of charcoal in it.Tranfer the chicken to a big bowl and in between,place the small bowl with charcoal and cover with a aluminium foil for about 5 minutes.This will infuse the chicken with smoky flavor.Be very careful doing this.Take care that there should be no vivible flame on the charcoal piece,only fumes!\nGrill and cook the chicken for 2o minutes till done and but still tender.\nBake it in the oven for 25-30 minutes at 400 F,turning and basting with oil.\nPierce the chicken with toothpick/fork to check if it is done.\nServe with mint & coriander chutney, onion rings, lemon wedges and  sliced tomatoes. You can sprinkle some chaat masala also if you want.",
+    "analyzedInstructions": [
+        {
+            "name": "",
+            "steps": [
+                {
+                    "number": 1,
+                    "step": "Wash the chicken pieces thoroughly & pat dry with a paper towel.",
+                    "ingredients": [
+                        {
+                            "id": 1005006,
+                            "name": "chicken pieces",
+                            "localizedName": "chicken pieces",
+                            "image": "chicken-parts.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 405895,
+                            "name": "paper towels",
+                            "localizedName": "paper towels",
+                            "image": "paper-towels.jpg"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "step": "Make incisions with a sharp knife on thick parts of the chicken pieces deep enough to reach the bone.",
+                    "ingredients": [
+                        {
+                            "id": 1005006,
+                            "name": "chicken pieces",
+                            "localizedName": "chicken pieces",
+                            "image": "chicken-parts.jpg"
+                        },
+                        {
+                            "id": 0,
+                            "name": "bone",
+                            "localizedName": "bone",
+                            "image": ""
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404745,
+                            "name": "knife",
+                            "localizedName": "knife",
+                            "image": "chefs-knife.jpg"
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "step": "Apply a mixture one tablespoon lemon juice and salt over the chicken and set aside for half an hour.",
+                    "ingredients": [
+                        {
+                            "id": 9152,
+                            "name": "lemon juice",
+                            "localizedName": "lemon juice",
+                            "image": "lemon-juice.jpg"
+                        },
+                        {
+                            "id": 5006,
+                            "name": "whole chicken",
+                            "localizedName": "whole chicken",
+                            "image": "whole-chicken.jpg"
+                        },
+                        {
+                            "id": 2047,
+                            "name": "salt",
+                            "localizedName": "salt",
+                            "image": "salt.jpg"
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 4,
+                    "step": "For the marinade, tie up yogurt in a piece of muslin /cheese cloth and hang over a bowl for fifteen to twenty minutes.",
+                    "ingredients": [
+                        {
+                            "id": 0,
+                            "name": "marinade",
+                            "localizedName": "marinade",
+                            "image": "seasoning.png"
+                        },
+                        {
+                            "id": 1041009,
+                            "name": "cheese",
+                            "localizedName": "cheese",
+                            "image": "cheddar-cheese.png"
+                        },
+                        {
+                            "id": 1116,
+                            "name": "yogurt",
+                            "localizedName": "yogurt",
+                            "image": "plain-yogurt.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404647,
+                            "name": "cheesecloth",
+                            "localizedName": "cheesecloth",
+                            "image": "cheesecloth.jpg"
+                        },
+                        {
+                            "id": 404783,
+                            "name": "bowl",
+                            "localizedName": "bowl",
+                            "image": "bowl.jpg"
+                        }
+                    ],
+                    "length": {
+                        "number": 20,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 5,
+                    "step": "Remove the thick yogurt into another bowl. Beat the yogurt for about 2 minutes to remove all lumps .",
+                    "ingredients": [
+                        {
+                            "id": 1116,
+                            "name": "yogurt",
+                            "localizedName": "yogurt",
+                            "image": "plain-yogurt.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404783,
+                            "name": "bowl",
+                            "localizedName": "bowl",
+                            "image": "bowl.jpg"
+                        }
+                    ],
+                    "length": {
+                        "number": 2,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 6,
+                    "step": "Add the remaining ingredients of the marinade to the yogurt and mix well.",
+                    "ingredients": [
+                        {
+                            "id": 0,
+                            "name": "marinade",
+                            "localizedName": "marinade",
+                            "image": "seasoning.png"
+                        },
+                        {
+                            "id": 1116,
+                            "name": "yogurt",
+                            "localizedName": "yogurt",
+                            "image": "plain-yogurt.jpg"
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 7,
+                    "step": "Rub this marinade over the chicken pieces.",
+                    "ingredients": [
+                        {
+                            "id": 1005006,
+                            "name": "chicken pieces",
+                            "localizedName": "chicken pieces",
+                            "image": "chicken-parts.jpg"
+                        },
+                        {
+                            "id": 0,
+                            "name": "marinade",
+                            "localizedName": "marinade",
+                            "image": "seasoning.png"
+                        },
+                        {
+                            "id": 1012034,
+                            "name": "dry seasoning rub",
+                            "localizedName": "dry seasoning rub",
+                            "image": "seasoning.png"
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 8,
+                    "step": "Put the chicken pieces and marinade in a bowl ,cover the bowl with a plastic wrap and marinate overnight or for at least 6-7 hours in a refrigerator.",
+                    "ingredients": [
+                        {
+                            "id": 1005006,
+                            "name": "chicken pieces",
+                            "localizedName": "chicken pieces",
+                            "image": "chicken-parts.jpg"
+                        },
+                        {
+                            "id": 0,
+                            "name": "marinade",
+                            "localizedName": "marinade",
+                            "image": "seasoning.png"
+                        },
+                        {
+                            "id": 10018364,
+                            "name": "wrap",
+                            "localizedName": "wrap",
+                            "image": "flour-tortilla.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404730,
+                            "name": "plastic wrap",
+                            "localizedName": "plastic wrap",
+                            "image": "plastic-wrap.jpg"
+                        },
+                        {
+                            "id": 404783,
+                            "name": "bowl",
+                            "localizedName": "bowl",
+                            "image": "bowl.jpg"
+                        }
+                    ],
+                    "length": {
+                        "number": 420,
+                        "unit": "minutes"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "For cooking , you can do any one of the following",
+            "steps": [
+                {
+                    "number": 1,
+                    "step": "This is what I do: Preheat the oven at 450 F broiler mode.Line a baking sheet with aluminum foil and arrange the chicken pieces on it.",
+                    "ingredients": [
+                        {
+                            "id": 1005006,
+                            "name": "chicken pieces",
+                            "localizedName": "chicken pieces",
+                            "image": "chicken-parts.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404765,
+                            "name": "aluminum foil",
+                            "localizedName": "aluminum foil",
+                            "image": "aluminum-foil.png"
+                        },
+                        {
+                            "id": 404727,
+                            "name": "baking sheet",
+                            "localizedName": "baking sheet",
+                            "image": "baking-sheet.jpg"
+                        },
+                        {
+                            "id": 405914,
+                            "name": "broiler",
+                            "localizedName": "broiler",
+                            "image": "oven.jpg"
+                        },
+                        {
+                            "id": 404784,
+                            "name": "oven",
+                            "localizedName": "oven",
+                            "image": "oven.jpg",
+                            "temperature": {
+                                "number": 450.0,
+                                "unit": "Fahrenheit"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "step": "Brush the marinated chicken pieces with oil/butter. Tip the sheet inside the oven on top rack and cook for about 22-25 minutes flipping it after 15 minutes till chicken is done but still tender.You may get some burnt marks on the chicken but thats okay!After the chicken is done,take a small bowl and light a little piece of charcoal in it.Tranfer the chicken to a big bowl and in between,place the small bowl with charcoal and cover with a aluminium foil for about 5 minutes.This will infuse the chicken with smoky flavor.Be very careful doing this.Take care that there should be no vivible flame on the charcoal piece,only fumes!",
+                    "ingredients": [
+                        {
+                            "id": 1005006,
+                            "name": "chicken pieces",
+                            "localizedName": "chicken pieces",
+                            "image": "chicken-parts.jpg"
+                        },
+                        {
+                            "id": 5006,
+                            "name": "whole chicken",
+                            "localizedName": "whole chicken",
+                            "image": "whole-chicken.jpg"
+                        },
+                        {
+                            "id": 1001,
+                            "name": "butter",
+                            "localizedName": "butter",
+                            "image": "butter-sliced.jpg"
+                        },
+                        {
+                            "id": 4582,
+                            "name": "cooking oil",
+                            "localizedName": "cooking oil",
+                            "image": "vegetable-oil.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404765,
+                            "name": "aluminum foil",
+                            "localizedName": "aluminum foil",
+                            "image": "aluminum-foil.png"
+                        },
+                        {
+                            "id": 404783,
+                            "name": "bowl",
+                            "localizedName": "bowl",
+                            "image": "bowl.jpg"
+                        },
+                        {
+                            "id": 404784,
+                            "name": "oven",
+                            "localizedName": "oven",
+                            "image": "oven.jpg"
+                        }
+                    ],
+                    "length": {
+                        "number": 45,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 3,
+                    "step": "Grill and cook the chicken for 2o minutes till done and but still tender.",
+                    "ingredients": [
+                        {
+                            "id": 5006,
+                            "name": "whole chicken",
+                            "localizedName": "whole chicken",
+                            "image": "whole-chicken.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404706,
+                            "name": "grill",
+                            "localizedName": "grill",
+                            "image": "grill.jpg"
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "step": "Bake it in the oven for 25-30 minutes at 400 F,turning and basting with oil.",
+                    "ingredients": [
+                        {
+                            "id": 4582,
+                            "name": "cooking oil",
+                            "localizedName": "cooking oil",
+                            "image": "vegetable-oil.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404784,
+                            "name": "oven",
+                            "localizedName": "oven",
+                            "image": "oven.jpg",
+                            "temperature": {
+                                "number": 400.0,
+                                "unit": "Fahrenheit"
+                            }
+                        }
+                    ],
+                    "length": {
+                        "number": 30,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 5,
+                    "step": "Pierce the chicken with toothpick/fork to check if it is done.",
+                    "ingredients": [
+                        {
+                            "id": 5006,
+                            "name": "whole chicken",
+                            "localizedName": "whole chicken",
+                            "image": "whole-chicken.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404644,
+                            "name": "toothpicks",
+                            "localizedName": "toothpicks",
+                            "image": "toothpicks.jpg"
+                        }
+                    ]
+                },
+                {
+                    "number": 6,
+                    "step": "Serve with mint & coriander chutney, onion rings, lemon wedges and  sliced tomatoes. You can sprinkle some chaat masala also if you want.",
+                    "ingredients": [
+                        {
+                            "id": 10393663,
+                            "name": "chaat masala",
+                            "localizedName": "chaat masala",
+                            "image": "ground-coriander.jpg"
+                        },
+                        {
+                            "id": 1029150,
+                            "name": "lemon wedge",
+                            "localizedName": "lemon wedge",
+                            "image": "lemon-wedge.png"
+                        },
+                        {
+                            "id": 1012013,
+                            "name": "coriander",
+                            "localizedName": "coriander",
+                            "image": "ground-coriander.jpg"
+                        },
+                        {
+                            "id": 11529,
+                            "name": "tomato",
+                            "localizedName": "tomato",
+                            "image": "tomato.png"
+                        },
+                        {
+                            "id": 0,
+                            "name": "chutney",
+                            "localizedName": "chutney",
+                            "image": ""
+                        },
+                        {
+                            "id": 11282,
+                            "name": "onion",
+                            "localizedName": "onion",
+                            "image": "brown-onion.png"
+                        },
+                        {
+                            "id": 2064,
+                            "name": "mint",
+                            "localizedName": "mint",
+                            "image": "mint.jpg"
+                        }
+                    ],
+                    "equipment": []
+                }
+            ]
+        }
+    ],
+    "originalId": null,
+    "spoonacularSourceUrl": "https://spoonacular.com/indian-tandoori-chicken-647867"
 }
 ]
 
