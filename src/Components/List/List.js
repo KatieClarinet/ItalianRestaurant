@@ -23,20 +23,16 @@ export default function List() {
     indian.map((item) => {
         const { id, title, image } = item;
         return (
-          <div key={id} >
-          <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} >
-            <h2>{title}</h2>
+          <div key={id} class="max-w-sm rounded overflow-hidden shadow-lg">
+            <img alt={title} src={image} class="w-full" />
+          <div class="px-6 py-4"
+          onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} >
+            <div class="font-bold text-xl mb-2">{title}</div>
+            <p class="text-gray-700 text-base">More info</p>
           </div>
-           {/* {isHovering && ( */}
-           {/* <div className="right"> 
-          <p>Working</p>
-            <h2>{id}</h2> 
-          </div> */}
-        
-        {/* } */}
-            <img alt={title} src={image} />
-            <br />
-            <br />
+            <div class="px-6 pt-4 pb-2">
+            <button type="submit" class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Add to basket</button>
+            </div>
           </div>
         );
       });

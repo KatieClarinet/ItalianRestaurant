@@ -3,16 +3,16 @@
     width: 100vw;
 }
 
-.left {
+/* .left {
     display: flex;
-    flex-wrap: wrap;
+    
     /* flex-direction: column; */
     background-color: aquamarine;
     width: 80%;
     align-items: center;
     justify-content: center;
 
-}
+/* }  */
 
 .right {
     background-color: aqua;
