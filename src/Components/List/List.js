@@ -1,6 +1,5 @@
 import {useState} from 'react';
 import Navbar from "../Navbar/Navbar";
-import "./List.css"
 // import pudding from "../../Data/Pudding.js"
 // import vegan from "../../Data/Vegan.js"
 import indian from "../../Data/Indian.js";

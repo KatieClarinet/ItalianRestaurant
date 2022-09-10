@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import {
   BrowserRouter,
   Routes,
@@ -9,6 +8,7 @@ import {
 import App from './App';
 import List from './Components/List/List';
 import Basket from './Components/Basket/Basket';
+import "./index.css"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
