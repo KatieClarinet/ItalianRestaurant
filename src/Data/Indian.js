@@ -31,19 +31,19 @@ const indian = [
     },
     {
         "id": 631752,
-        "title": "Indian Spiced Red Lentil Soup",
+        "title": "Spiced Red Lentil Soup",
         "image": "https://spoonacular.com/recipeImages/631752-312x231.jpg",
         "imageType": "jpg"
     },
     {
         "id": 643775,
-        "title": "Indian-Style Pumpkin Side Dish",
+        "title": "Pumpkin Side Dish",
         "image": "https://spoonacular.com/recipeImages/643775-312x231.jpg",
         "imageType": "jpg"
     },
     {
         "id": 642547,
-        "title": "Indian-Inspired Falafel Appetizer",
+        "title": "Falafel Appetizer",
         "image": "https://spoonacular.com/recipeImages/642547-312x231.jpg",
         "imageType": "jpg"
     },

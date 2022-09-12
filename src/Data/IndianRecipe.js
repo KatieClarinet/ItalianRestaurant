@@ -3269,7 +3269,7 @@ const indianRecipe = [{
         }
     ],
     "id": 631752,
-    "title": "Indian Spiced Red Lentil Soup",
+    "title": "Spiced Red Lentil Soup",
     "readyInMinutes": 45,
     "servings": 12,
     "sourceUrl": "https://www.foodista.com/recipe/N3PKYN5Q/indian-spiced-red-lentil-soup",
@@ -3557,6 +3557,1406 @@ const indianRecipe = [{
     ],
     "originalId": null,
     "spoonacularSourceUrl": "https://spoonacular.com/indian-spiced-red-lentil-soup-631752"
+}, 
+{
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": true,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 0,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 56,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 48.07,
+    "extendedIngredients": [
+        {
+            "id": 1002013,
+            "aisle": "Spices and Seasonings",
+            "image": "ground-coriander.jpg",
+            "consistency": "SOLID",
+            "name": "coriander powder",
+            "nameClean": "ground coriander",
+            "original": "1 tablespoon coriander powder",
+            "originalName": "coriander powder",
+            "amount": 1.0,
+            "unit": "tablespoon",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                }
+            }
+        },
+        {
+            "id": 93604,
+            "aisle": "Ethnic Foods",
+            "image": "curry-leaves.jpg",
+            "consistency": "SOLID",
+            "name": "curry leaves",
+            "nameClean": "curry leaves",
+            "original": "2 sprigs curry leaves, discard stalks",
+            "originalName": "curry leaves, discard stalks",
+            "amount": 2.0,
+            "unit": "sprigs",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "sprigs",
+                    "unitLong": "sprigs"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "sprigs",
+                    "unitLong": "sprigs"
+                }
+            }
+        },
+        {
+            "id": 10111962,
+            "aisle": "Produce;Ethnic Foods;Spices and Seasonings",
+            "image": "dried-arbol-chiles.jpg",
+            "consistency": "SOLID",
+            "name": "dried chili peppers",
+            "nameClean": "dried chili pepper",
+            "original": "5 dried chili peppers",
+            "originalName": "dried chili peppers",
+            "amount": 5.0,
+            "unit": "",
+            "meta": [
+                "dried"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 5.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                },
+                "metric": {
+                    "amount": 5.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                }
+            }
+        },
+        {
+            "id": 11216,
+            "aisle": "Produce;Ethnic Foods;Spices and Seasonings",
+            "image": "ginger.png",
+            "consistency": "SOLID",
+            "name": "ginger",
+            "nameClean": "ginger",
+            "original": "2 tablespoons grated ginger",
+            "originalName": "grated ginger",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "meta": [
+                "grated"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                }
+            }
+        },
+        {
+            "id": 2024,
+            "aisle": "Spices and Seasonings",
+            "image": "mustard-seeds.png",
+            "consistency": "SOLID",
+            "name": "mustard seeds",
+            "nameClean": "yellow mustard seeds",
+            "original": "2 tablespoons mustard seeds",
+            "originalName": "mustard seeds",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                }
+            }
+        },
+        {
+            "id": 11282,
+            "aisle": "Produce",
+            "image": "brown-onion.png",
+            "consistency": "SOLID",
+            "name": "onions",
+            "nameClean": "onion",
+            "original": "2 large onions, finely chopped",
+            "originalName": "onions, finely chopped",
+            "amount": 2.0,
+            "unit": "large",
+            "meta": [
+                "finely chopped"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "large",
+                    "unitLong": "larges"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "large",
+                    "unitLong": "larges"
+                }
+            }
+        },
+        {
+            "id": 11422,
+            "aisle": "Produce",
+            "image": "pumpkin.png",
+            "consistency": "SOLID",
+            "name": "pumpkin",
+            "nameClean": "sugar pumpkin",
+            "original": "1 small pumpkin",
+            "originalName": "pumpkin",
+            "amount": 1.0,
+            "unit": "small",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "small",
+                    "unitLong": "small"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "small",
+                    "unitLong": "small"
+                }
+            }
+        },
+        {
+            "id": 2043,
+            "aisle": "Spices and Seasonings",
+            "image": "turmeric.jpg",
+            "consistency": "SOLID",
+            "name": "turmeric powder",
+            "nameClean": "turmeric",
+            "original": "1 tablespoon turmeric powder",
+            "originalName": "turmeric powder",
+            "amount": 1.0,
+            "unit": "tablespoon",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                }
+            }
+        }
+    ],
+    "id": 643775,
+    "title": "Pumpkin Side Dish",
+    "readyInMinutes": 45,
+    "servings": 12,
+    "sourceUrl": "http://www.foodista.com/recipe/HFH8GVJS/fried-pumpkin-indian-style",
+    "image": "https://spoonacular.com/recipeImages/643775-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "Need a <b>caveman, gluten free, primal, and whole 30 side dish</b>? Indian-Style Pumpkin Side Dish could be a tremendous recipe to try. One serving contains <b>50 calories</b>, <b>2g of protein</b>, and <b>1g of fat</b>. For <b>45 cents per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. Head to the store and pick up mustard seeds, curry leaves, turmeric powder, and a few other things to make it today. From preparation to the plate, this recipe takes around <b>45 minutes</b>. Only a few people made this recipe, and 1 would say it hit the spot. All things considered, we decided this recipe <b>deserves a spoonacular score of 88%</b>. This score is excellent. Try <a href=\"https://spoonacular.com/recipes/kovakkai-tindora-dondakaya-curry-south-indian-side-dish-s-564780\">Kovakkai (Tindora/Dondakaya) Curry | South Indian Side Dish s</a>, <a href=\"https://spoonacular.com/recipes/flemish-style-asparagus-side-dish-643096\">Flemish Style Asparagus Side Dish</a>, and <a href=\"https://spoonacular.com/recipes/fried-corn-southern-style-side-dish-618393\">Fried Corn Southern-Style Side Dish</a> for similar recipes.",
+    "cuisines": [],
+    "dishTypes": [
+        "side dish"
+    ],
+    "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "whole 30",
+        "vegan"
+    ],
+    "occasions": [],
+    "winePairing": {},
+    "instructions": "<ol><li>Heat oil in pan and stir in curry leaves, mustard seeds and dried chillies until the mustard seeds start to pop. </li><li>Remove chillies.</li><li>Add chopped onions and grated ginger and fry until onions are soft.</li><li>Toss in diced pumpkin, turmeric powder and coriander powder and stir to combine.</li><li>Add about a half cup of water, stir and simmer covered, until liquid evaporates and pumpkin turns soft. </li><li>If needed, add more water, cover and simmer until the desired texture. Do not put in too much water or pumpkin will become mushy.</li><li>Add salt to taste.(Sprinkle with some chopped fresh coriander if desired)</li></ol>",
+    "analyzedInstructions": [
+        {
+            "name": "",
+            "steps": [
+                {
+                    "number": 1,
+                    "step": "Heat oil in pan and stir in curry leaves, mustard seeds and dried chillies until the mustard seeds start to pop.",
+                    "ingredients": [
+                        {
+                            "id": 10111962,
+                            "name": "dried chili pepper",
+                            "localizedName": "dried chili pepper",
+                            "image": "dried-arbol-chiles.jpg"
+                        },
+                        {
+                            "id": 2024,
+                            "name": "mustard seeds",
+                            "localizedName": "mustard seeds",
+                            "image": "mustard-seeds.png"
+                        },
+                        {
+                            "id": 93604,
+                            "name": "curry leaves",
+                            "localizedName": "curry leaves",
+                            "image": "curry-leaves.jpg"
+                        },
+                        {
+                            "id": 4582,
+                            "name": "cooking oil",
+                            "localizedName": "cooking oil",
+                            "image": "vegetable-oil.jpg"
+                        },
+                        {
+                            "id": 0,
+                            "name": "pop",
+                            "localizedName": "soft drink",
+                            "image": ""
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404645,
+                            "name": "frying pan",
+                            "localizedName": "frying pan",
+                            "image": "pan.png"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "step": "Remove chillies.",
+                    "ingredients": [
+                        {
+                            "id": 11819,
+                            "name": "chili pepper",
+                            "localizedName": "chili pepper",
+                            "image": "red-chili.jpg"
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 3,
+                    "step": "Add chopped onions and grated ginger and fry until onions are soft.Toss in diced pumpkin, turmeric powder and coriander powder and stir to combine.",
+                    "ingredients": [
+                        {
+                            "id": 1002013,
+                            "name": "ground coriander",
+                            "localizedName": "ground coriander",
+                            "image": "ground-coriander.jpg"
+                        },
+                        {
+                            "id": 2043,
+                            "name": "turmeric",
+                            "localizedName": "turmeric",
+                            "image": "turmeric.jpg"
+                        },
+                        {
+                            "id": 11422,
+                            "name": "pumpkin",
+                            "localizedName": "pumpkin",
+                            "image": "pumpkin.png"
+                        },
+                        {
+                            "id": 11216,
+                            "name": "ginger",
+                            "localizedName": "ginger",
+                            "image": "ginger.png"
+                        },
+                        {
+                            "id": 11282,
+                            "name": "onion",
+                            "localizedName": "onion",
+                            "image": "brown-onion.png"
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 4,
+                    "step": "Add about a half cup of water, stir and simmer covered, until liquid evaporates and pumpkin turns soft. If needed, add more water, cover and simmer until the desired texture. Do not put in too much water or pumpkin will become mushy.",
+                    "ingredients": [
+                        {
+                            "id": 11422,
+                            "name": "pumpkin",
+                            "localizedName": "pumpkin",
+                            "image": "pumpkin.png"
+                        },
+                        {
+                            "id": 14412,
+                            "name": "water",
+                            "localizedName": "water",
+                            "image": "water.png"
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 5,
+                    "step": "Add salt to taste.(",
+                    "ingredients": [
+                        {
+                            "id": 2047,
+                            "name": "salt",
+                            "localizedName": "salt",
+                            "image": "salt.jpg"
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 6,
+                    "step": "Sprinkle with some chopped fresh coriander if desired)",
+                    "ingredients": [
+                        {
+                            "id": 11165,
+                            "name": "fresh cilantro",
+                            "localizedName": "fresh cilantro",
+                            "image": "cilantro.png"
+                        }
+                    ],
+                    "equipment": []
+                }
+            ]
+        }
+    ],
+    "originalId": null,
+    "spoonacularSourceUrl": "https://spoonacular.com/indian-style-pumpkin-side-dish-643775"
+}, 
+{
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": false,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 2,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 44,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 61.72,
+    "extendedIngredients": [
+        {
+            "id": 20081,
+            "aisle": "Baking",
+            "image": "flour.png",
+            "consistency": "SOLID",
+            "name": "all purpose flour",
+            "nameClean": "wheat flour",
+            "original": "2 tablespoons all purpose flour",
+            "originalName": "all purpose flour",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                }
+            }
+        },
+        {
+            "id": 18371,
+            "aisle": "Baking",
+            "image": "white-powder.jpg",
+            "consistency": "SOLID",
+            "name": "baking powder",
+            "nameClean": "low sodium baking powder",
+            "original": "1 teaspoon baking powder",
+            "originalName": "baking powder",
+            "amount": 1.0,
+            "unit": "teaspoon",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "tsp",
+                    "unitLong": "teaspoon"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "tsp",
+                    "unitLong": "teaspoon"
+                }
+            }
+        },
+        {
+            "id": 16063,
+            "aisle": "Pasta and Rice;Canned and Jarred",
+            "image": "black-eyed-peas.jpg",
+            "consistency": "SOLID",
+            "name": "black eyed beans",
+            "nameClean": "blackeyed peas",
+            "original": "1 cup raw black eyed beans",
+            "originalName": "raw black eyed beans",
+            "amount": 1.0,
+            "unit": "cup",
+            "meta": [
+                "raw",
+                "black"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "cup",
+                    "unitLong": "cup"
+                },
+                "metric": {
+                    "amount": 236.588,
+                    "unitShort": "ml",
+                    "unitLong": "milliliters"
+                }
+            }
+        },
+        {
+            "id": 11165,
+            "aisle": "Produce;Spices and Seasonings",
+            "image": "cilantro.png",
+            "consistency": "SOLID",
+            "name": "cilantro leaves",
+            "nameClean": "cilantro",
+            "original": "2 tablespoons coriander leaves/cilantro - chopped",
+            "originalName": "coriander leaves/cilantro - chopped",
+            "amount": 2.0,
+            "unit": "tablespoons",
+            "meta": [
+                "chopped"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                }
+            }
+        },
+        {
+            "id": 1002013,
+            "aisle": "Spices and Seasonings",
+            "image": "ground-coriander.jpg",
+            "consistency": "SOLID",
+            "name": "coriander powder",
+            "nameClean": "ground coriander",
+            "original": "2 teaspoons coriander powder",
+            "originalName": "coriander powder",
+            "amount": 2.0,
+            "unit": "teaspoons",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 2014,
+            "aisle": "Spices and Seasonings",
+            "image": "ground-cumin.jpg",
+            "consistency": "SOLID",
+            "name": "cumin seeds",
+            "nameClean": "cumin seeds",
+            "original": "2 teaspoons cumin seeds",
+            "originalName": "cumin seeds",
+            "amount": 2.0,
+            "unit": "teaspoons",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 16057,
+            "aisle": "Pasta and Rice;Canned and Jarred;Ethnic Foods",
+            "image": "chickpeas.png",
+            "consistency": "SOLID",
+            "name": "garbanzo beans",
+            "nameClean": "chickpeas",
+            "original": "1 cup raw garbanzo beans/ chickpeas",
+            "originalName": "raw garbanzo beans/ chickpeas",
+            "amount": 1.0,
+            "unit": "cup",
+            "meta": [
+                "raw"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "cup",
+                    "unitLong": "cup"
+                },
+                "metric": {
+                    "amount": 236.588,
+                    "unitShort": "ml",
+                    "unitLong": "milliliters"
+                }
+            }
+        },
+        {
+            "id": 11215,
+            "aisle": "Produce",
+            "image": "garlic.png",
+            "consistency": "SOLID",
+            "name": "garlic cloves",
+            "nameClean": "garlic",
+            "original": "4 garlic cloves - chopped",
+            "originalName": "garlic cloves - chopped",
+            "amount": 4.0,
+            "unit": "",
+            "meta": [
+                "chopped"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 4.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                },
+                "metric": {
+                    "amount": 4.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                }
+            }
+        },
+        {
+            "id": 11282,
+            "aisle": "Produce",
+            "image": "brown-onion.png",
+            "consistency": "SOLID",
+            "name": "onions",
+            "nameClean": "onion",
+            "original": "1/2 cup onions - finely chopped",
+            "originalName": "onions - finely chopped",
+            "amount": 0.5,
+            "unit": "cup",
+            "meta": [
+                "finely chopped"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 0.5,
+                    "unitShort": "cups",
+                    "unitLong": "cups"
+                },
+                "metric": {
+                    "amount": 118.294,
+                    "unitShort": "ml",
+                    "unitLong": "milliliters"
+                }
+            }
+        },
+        {
+            "id": 11297,
+            "aisle": "Produce;Spices and Seasonings",
+            "image": "parsley.jpg",
+            "consistency": "SOLID",
+            "name": "parsley",
+            "nameClean": "parsley",
+            "original": "1 tablespoon parsley - chopped",
+            "originalName": "parsley - chopped",
+            "amount": 1.0,
+            "unit": "tablespoon",
+            "meta": [
+                "chopped"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "Tbsp",
+                    "unitLong": "Tbsp"
+                }
+            }
+        },
+        {
+            "id": 10211821,
+            "aisle": "Produce",
+            "image": "bell-pepper-orange.png",
+            "consistency": "SOLID",
+            "name": "bell pepper",
+            "nameClean": "bell pepper",
+            "original": "pepper",
+            "originalName": "pepper",
+            "amount": 12.0,
+            "unit": "servings",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 12.0,
+                    "unitShort": "servings",
+                    "unitLong": "servings"
+                },
+                "metric": {
+                    "amount": 12.0,
+                    "unitShort": "servings",
+                    "unitLong": "servings"
+                }
+            }
+        },
+        {
+            "id": 2047,
+            "aisle": "Spices and Seasonings",
+            "image": "salt.jpg",
+            "consistency": "SOLID",
+            "name": "salt",
+            "nameClean": "table salt",
+            "original": "Salt",
+            "originalName": "Salt",
+            "amount": 12.0,
+            "unit": "servings",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 12.0,
+                    "unitShort": "servings",
+                    "unitLong": "servings"
+                },
+                "metric": {
+                    "amount": 12.0,
+                    "unitShort": "servings",
+                    "unitLong": "servings"
+                }
+            }
+        },
+        {
+            "id": 4513,
+            "aisle": null,
+            "image": null,
+            "consistency": "SOLID",
+            "name": "vegetable oil",
+            "nameClean": null,
+            "original": "1 cup vegetable oil, for frying",
+            "originalName": "vegetable oil, for frying",
+            "amount": 1.0,
+            "unit": "cup",
+            "meta": [
+                "for frying"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "cup",
+                    "unitLong": "cup"
+                },
+                "metric": {
+                    "amount": 236.588,
+                    "unitShort": "ml",
+                    "unitLong": "milliliters"
+                }
+            }
+        }
+    ],
+    "id": 642547,
+    "title": "Falafel Appetizer",
+    "readyInMinutes": 45,
+    "servings": 12,
+    "sourceUrl": "http://www.foodista.com/recipe/X86M5N75/falafel-with-an-indian-twist",
+    "image": "https://spoonacular.com/recipeImages/642547-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "Indian-Inspired Falafel Appetizer might be just the <b>middl eastern</b> recipe you are searching for. For <b>23 cents per serving</b>, this recipe <b>covers 4%</b> of your daily requirements of vitamins and minerals. One serving contains <b>65 calories</b>, <b>3g of protein</b>, and <b>2g of fat</b>. If you have all purpose flour, onions, garlic cloves, and a few other ingredients on hand, you can make it. 1 person has made this recipe and would make it again. It is a good option if you're following a <b>vegan</b> diet. From preparation to the plate, this recipe takes approximately <b>45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 41%</b>. This score is good. Try <a href=\"https://spoonacular.com/recipes/onion-salad-indian-inspired-145401\">Onion Salad - Indian Inspired</a>, <a href=\"https://spoonacular.com/recipes/indian-inspired-lentil-soup-647874\">Indian-Inspired Lentil Soup</a>, and <a href=\"https://spoonacular.com/recipes/indian-inspired-chicken-kabobs-276442\">Indian-Inspired Chicken Kabobs</a> for similar recipes.",
+    "cuisines": [
+        "Middle Eastern"
+    ],
+    "dishTypes": [
+        "antipasti",
+        "starter",
+        "snack",
+        "appetizer",
+        "antipasto",
+        "hor d'oeuvre"
+    ],
+    "diets": [
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+    ],
+    "occasions": [],
+    "winePairing": {},
+    "instructions": "<ol><li>Clean and wash the garbanzo beans, black eyed peas and green gram. Soak the lentils overnight/ 6-8 hours in excess water. Drain and set them aside.</li><li>Grind them to a coarse paste in a grinder without water. Mix in all the ingredients and let the mixture sit for 1-2 hours in refrigerator. Bring them down to room temperature and roll them into small balls using a falafel scoop or a spoon or a small ice cream scoop and place over a baking sheet covered with a parchment paper.</li><li>Heat 3 inches of oil in a deep cooking vessel (375 degrees) . Once the oil gets heated up, first fry 1 ball and if the balls lose shape, add little more flour for maintaining the shape.</li><li>Fry them in batches of 6 at a time for 2-3 minutes on one side or until they turn golden brown. Drain excess oil and serve with a salad/pita bread/tahini sauce.</li></ol>",
+    "analyzedInstructions": [
+        {
+            "name": "",
+            "steps": [
+                {
+                    "number": 1,
+                    "step": "Clean and wash the garbanzo beans, black eyed peas and green gram. Soak the lentils overnight/ 6-8 hours in excess water.",
+                    "ingredients": [
+                        {
+                            "id": 16063,
+                            "name": "blackeyed peas",
+                            "localizedName": "blackeyed peas",
+                            "image": "black-eyed-peas.jpg"
+                        },
+                        {
+                            "id": 16057,
+                            "name": "chickpeas",
+                            "localizedName": "chickpeas",
+                            "image": "chickpeas.png"
+                        },
+                        {
+                            "id": 16080,
+                            "name": "mung beans",
+                            "localizedName": "mung beans",
+                            "image": "mung-beans.png"
+                        },
+                        {
+                            "id": 10316069,
+                            "name": "lentils",
+                            "localizedName": "lentils",
+                            "image": "lentils-brown.jpg"
+                        },
+                        {
+                            "id": 14412,
+                            "name": "water",
+                            "localizedName": "water",
+                            "image": "water.png"
+                        }
+                    ],
+                    "equipment": [],
+                    "length": {
+                        "number": 480,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 2,
+                    "step": "Drain and set them aside.Grind them to a coarse paste in a grinder without water.",
+                    "ingredients": [
+                        {
+                            "id": 14412,
+                            "name": "water",
+                            "localizedName": "water",
+                            "image": "water.png"
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 3,
+                    "step": "Mix in all the ingredients and let the mixture sit for 1-2 hours in refrigerator. Bring them down to room temperature and roll them into small balls using a falafel scoop or a spoon or a small ice cream scoop and place over a baking sheet covered with a parchment paper.",
+                    "ingredients": [
+                        {
+                            "id": 19095,
+                            "name": "ice cream",
+                            "localizedName": "ice cream",
+                            "image": "vanilla-ice-cream.png"
+                        },
+                        {
+                            "id": 0,
+                            "name": "roll",
+                            "localizedName": "roll",
+                            "image": "dinner-yeast-rolls.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404742,
+                            "name": "ice cream scoop",
+                            "localizedName": "ice cream scoop",
+                            "image": "ice-cream-scoop.jpg"
+                        },
+                        {
+                            "id": 404770,
+                            "name": "baking paper",
+                            "localizedName": "baking paper",
+                            "image": "baking-paper.jpg"
+                        },
+                        {
+                            "id": 404727,
+                            "name": "baking sheet",
+                            "localizedName": "baking sheet",
+                            "image": "baking-sheet.jpg"
+                        }
+                    ],
+                    "length": {
+                        "number": 120,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 4,
+                    "step": "Heat 3 inches of oil in a deep cooking vessel (375 degrees) . Once the oil gets heated up, first fry 1 ball and if the balls lose shape, add little more flour for maintaining the shape.Fry them in batches of 6 at a time for 2-3 minutes on one side or until they turn golden brown.",
+                    "ingredients": [
+                        {
+                            "id": 20081,
+                            "name": "all purpose flour",
+                            "localizedName": "all purpose flour",
+                            "image": "flour.png"
+                        },
+                        {
+                            "id": 4582,
+                            "name": "cooking oil",
+                            "localizedName": "cooking oil",
+                            "image": "vegetable-oil.jpg"
+                        }
+                    ],
+                    "equipment": [],
+                    "length": {
+                        "number": 3,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 5,
+                    "step": "Drain excess oil and serve with a salad/pita bread/tahini sauce.",
+                    "ingredients": [
+                        {
+                            "id": 18413,
+                            "name": "pita",
+                            "localizedName": "pita",
+                            "image": "pita-bread.jpg"
+                        },
+                        {
+                            "id": 12698,
+                            "name": "tahini",
+                            "localizedName": "tahini",
+                            "image": "tahini-paste.png"
+                        },
+                        {
+                            "id": 0,
+                            "name": "sauce",
+                            "localizedName": "sauce",
+                            "image": ""
+                        },
+                        {
+                            "id": 4582,
+                            "name": "cooking oil",
+                            "localizedName": "cooking oil",
+                            "image": "vegetable-oil.jpg"
+                        }
+                    ],
+                    "equipment": []
+                }
+            ]
+        }
+    ],
+    "originalId": null,
+    "spoonacularSourceUrl": "https://spoonacular.com/indian-inspired-falafel-appetizer-642547"
+}, 
+{
+    "vegetarian": true,
+    "vegan": true,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": false,
+    "sustainable": false,
+    "lowFodmap": false,
+    "weightWatcherSmartPoints": 4,
+    "gaps": "no",
+    "preparationMinutes": -1,
+    "cookingMinutes": -1,
+    "aggregateLikes": 1,
+    "healthScore": 12,
+    "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+    "license": "CC BY 3.0",
+    "sourceName": "Foodista",
+    "pricePerServing": 142.47,
+    "extendedIngredients": [
+        {
+            "id": 11011,
+            "aisle": "Produce",
+            "image": "asparagus.png",
+            "consistency": "SOLID",
+            "name": "asparagus spears",
+            "nameClean": "asparagus",
+            "original": "14-15 asparagus spears",
+            "originalName": "asparagus spears",
+            "amount": 14.0,
+            "unit": "",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 14.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                },
+                "metric": {
+                    "amount": 14.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                }
+            }
+        },
+        {
+            "id": 2009,
+            "aisle": "Spices and Seasonings",
+            "image": "chili-powder.jpg",
+            "consistency": "SOLID",
+            "name": "chili powder",
+            "nameClean": "chili powder",
+            "original": "A pinch of chili powder",
+            "originalName": "A of chili powder",
+            "amount": 1.0,
+            "unit": "pinch",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "pinch",
+                    "unitLong": "pinch"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "pinch",
+                    "unitLong": "pinch"
+                }
+            }
+        },
+        {
+            "id": 2014,
+            "aisle": "Spices and Seasonings",
+            "image": "ground-cumin.jpg",
+            "consistency": "SOLID",
+            "name": "cumin seeds",
+            "nameClean": "cumin seeds",
+            "original": "½ tsp cumin seeds",
+            "originalName": "cumin seeds",
+            "amount": 0.5,
+            "unit": "tsp",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 11216,
+            "aisle": "Produce;Ethnic Foods;Spices and Seasonings",
+            "image": "ginger.png",
+            "consistency": "SOLID",
+            "name": "ginger",
+            "nameClean": "ginger",
+            "original": "1 inch piece peeled ginger",
+            "originalName": "peeled ginger",
+            "amount": 1.0,
+            "unit": "inch",
+            "meta": [
+                "peeled"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "inch",
+                    "unitLong": "inch"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "inch",
+                    "unitLong": "inch"
+                }
+            }
+        },
+        {
+            "id": 9160,
+            "aisle": "Produce",
+            "image": "lime-juice.png",
+            "consistency": "LIQUID",
+            "name": "lime juice",
+            "nameClean": "lime juice",
+            "original": "¾ tbsp lime juice",
+            "originalName": "lime juice",
+            "amount": 0.75,
+            "unit": "tbsp",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 0.75,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                },
+                "metric": {
+                    "amount": 0.75,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                }
+            }
+        },
+        {
+            "id": 2024,
+            "aisle": "Spices and Seasonings",
+            "image": "mustard-seeds.png",
+            "consistency": "SOLID",
+            "name": "mustard seeds",
+            "nameClean": "yellow mustard seeds",
+            "original": "½ tsp mustard seeds",
+            "originalName": "mustard seeds",
+            "amount": 0.5,
+            "unit": "tsp",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 0.5,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        },
+        {
+            "id": 4053,
+            "aisle": "Oil, Vinegar, Salad Dressing",
+            "image": "olive-oil.jpg",
+            "consistency": "LIQUID",
+            "name": "olive oil",
+            "nameClean": "olive oil",
+            "original": "1 ½ tbsp olive oil",
+            "originalName": "olive oil",
+            "amount": 1.5,
+            "unit": "tbsp",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 1.5,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                },
+                "metric": {
+                    "amount": 1.5,
+                    "unitShort": "Tbsps",
+                    "unitLong": "Tbsps"
+                }
+            }
+        },
+        {
+            "id": 2047,
+            "aisle": "Spices and Seasonings",
+            "image": "salt.jpg",
+            "consistency": "SOLID",
+            "name": "salt",
+            "nameClean": "table salt",
+            "original": "1 teaspoon salt",
+            "originalName": "salt",
+            "amount": 1.0,
+            "unit": "teaspoon",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 1.0,
+                    "unitShort": "tsp",
+                    "unitLong": "teaspoon"
+                },
+                "metric": {
+                    "amount": 1.0,
+                    "unitShort": "tsp",
+                    "unitLong": "teaspoon"
+                }
+            }
+        },
+        {
+            "id": 11677,
+            "aisle": "Produce",
+            "image": "shallots.jpg",
+            "consistency": "SOLID",
+            "name": "shallots",
+            "nameClean": "shallot",
+            "original": "2 shallots finely chopped",
+            "originalName": "shallots finely chopped",
+            "amount": 2.0,
+            "unit": "",
+            "meta": [
+                "finely chopped"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 2.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                },
+                "metric": {
+                    "amount": 2.0,
+                    "unitShort": "",
+                    "unitLong": ""
+                }
+            }
+        },
+        {
+            "id": 19335,
+            "aisle": "Baking",
+            "image": "sugar-in-bowl.png",
+            "consistency": "SOLID",
+            "name": "sugar",
+            "nameClean": "sugar",
+            "original": "¾ tsp sugar",
+            "originalName": "sugar",
+            "amount": 0.75,
+            "unit": "tsp",
+            "meta": [],
+            "measures": {
+                "us": {
+                    "amount": 0.75,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                },
+                "metric": {
+                    "amount": 0.75,
+                    "unitShort": "tsps",
+                    "unitLong": "teaspoons"
+                }
+            }
+        }
+    ],
+    "id": 647795,
+    "title": "Indian Asparagus with Ginger & Lime",
+    "readyInMinutes": 45,
+    "servings": 2,
+    "sourceUrl": "http://www.foodista.com/recipe/QNPS8W3V/indian-asparagus-with-ginger-lime",
+    "image": "https://spoonacular.com/recipeImages/647795-556x370.jpg",
+    "imageType": "jpg",
+    "summary": "The recipe Indian Asparagus with Ginger & Lime could satisfy your Indian craving in about <b>45 minutes</b>. This recipe makes 2 servings with <b>148 calories</b>, <b>3g of protein</b>, and <b>11g of fat</b> each. For <b>$1.42 per serving</b>, this recipe <b>covers 11%</b> of your daily requirements of vitamins and minerals. 1 person has made this recipe and would make it again. Only a few people really liked this side dish. If you have asparagus spears, ginger, cumin seeds, and a few other ingredients on hand, you can make it. It is a good option if you're following a <b>gluten free and vegan</b> diet. All things considered, we decided this recipe <b>deserves a spoonacular score of 54%</b>. This score is solid. Try <a href=\"https://spoonacular.com/recipes/beef-filet-salad-with-asparagus-snowpeas-ginger-and-lime-juice-37015\">Beef Filet Salad With Asparagus, Snowpeas, Ginger And Lime Juice</a>, <a href=\"https://spoonacular.com/recipes/crystallized-ginger-olive-oil-cupcakes-with-lime-buttercream-opal-basil-mint-and-lime-zest-405972\">Crystallized Ginger Olive Oil Cupcakes with Lime Buttercream, Opal Basil, Mint, and Lime Zest</a>, and <a href=\"https://spoonacular.com/recipes/indian-asparagus-115489\">Indian Asparagus</a> for similar recipes.",
+    "cuisines": [
+        "Indian",
+        "Asian"
+    ],
+    "dishTypes": [
+        "side dish"
+    ],
+    "diets": [
+        "gluten free",
+        "dairy free",
+        "lacto ovo vegetarian",
+        "vegan"
+    ],
+    "occasions": [],
+    "winePairing": {
+        "pairedWines": [
+            "chenin blanc",
+            "gewurztraminer",
+            "riesling"
+        ],
+        "pairingText": "Chenin Blanc, Gewurztraminer, and Riesling are my top picks for Asian. The best wine for Asian food depends on the cuisine and dish - of course - but these acidic whites pair with a number of traditional meals, spicy or not. The Mulderbosch Chenin Blanc with a 4.2 out of 5 star rating seems like a good match. It costs about 15 dollars per bottle.",
+        "productMatches": [
+            {
+                "id": 434512,
+                "title": "Mulderbosch Chenin Blanc",
+                "description": "Pale yellow in color, with a hint of green. A clean, lively wine with abundant lemon and lime aromas on the nose, with nuances of nutmeg and cloves. Well-balanced and elegant, but with some weight and a powerful follow-through. Stylistically dry and lightly oaked, this is an excellent wine to enjoy with food.",
+                "price": "$14.99",
+                "imageUrl": "https://spoonacular.com/productImages/434512-312x231.jpg",
+                "averageRating": 0.8400000000000001,
+                "ratingCount": 8.0,
+                "score": 0.8,
+                "link": "https://click.linksynergy.com/deeplink?id=*QCiIS6t4gA&mid=2025&murl=https%3A%2F%2Fwww.wine.com%2Fproduct%2Fmulderbosch-chenin-blanc-2004%2F85657"
+            }
+        ]
+    },
+    "instructions": "<ol><li>Heat the oil in the large non-stick pan (do not allow it to smoke). (To test if the oil is hot enough, throw in one mustard seed  if the oil is ready, it should sizzle and rise to the top straight away) When hot add the mustards seeds and fry until they sizzle, and add the cumin seeds and fry for 3-4 seconds.</li><li>Turn the heat to medium and add the onions, ginger and fry stirring occasionally, for 5 minutes or so until the shallots are a light golden colour.  Add the sugar, lime juice, chili powder and salt. Once the sugar has dissolved, toss the asparagus in the pan along with a sprinkling of water to help them steam. Cover and cook for 5-6 minutes until the asparagus is tender.  (The timing may vary depending on the thickness of the spears) you can test with a skewer to check for this)</li></ol>",
+    "analyzedInstructions": [
+        {
+            "name": "",
+            "steps": [
+                {
+                    "number": 1,
+                    "step": "Heat the oil in the large non-stick pan (do not allow it to smoke). (To test if the oil is hot enough, throw in one mustard seed  if the oil is ready, it should sizzle and rise to the top straight away) When hot add the mustards seeds and fry until they sizzle, and add the cumin seeds and fry for 3-4 seconds.Turn the heat to medium and add the onions, ginger and fry stirring occasionally, for 5 minutes or so until the shallots are a light golden colour.",
+                    "ingredients": [
+                        {
+                            "id": 2024,
+                            "name": "mustard seeds",
+                            "localizedName": "mustard seeds",
+                            "image": "mustard-seeds.png"
+                        },
+                        {
+                            "id": 2014,
+                            "name": "cumin seeds",
+                            "localizedName": "cumin seeds",
+                            "image": "ground-cumin.jpg"
+                        },
+                        {
+                            "id": 11677,
+                            "name": "shallot",
+                            "localizedName": "shallot",
+                            "image": "shallots.jpg"
+                        },
+                        {
+                            "id": 11216,
+                            "name": "ginger",
+                            "localizedName": "ginger",
+                            "image": "ginger.png"
+                        },
+                        {
+                            "id": 11282,
+                            "name": "onion",
+                            "localizedName": "onion",
+                            "image": "brown-onion.png"
+                        },
+                        {
+                            "id": 93818,
+                            "name": "seeds",
+                            "localizedName": "seeds",
+                            "image": "sunflower-seeds.jpg"
+                        },
+                        {
+                            "id": 4582,
+                            "name": "cooking oil",
+                            "localizedName": "cooking oil",
+                            "image": "vegetable-oil.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404645,
+                            "name": "frying pan",
+                            "localizedName": "frying pan",
+                            "image": "pan.png"
+                        }
+                    ],
+                    "length": {
+                        "number": 5,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 2,
+                    "step": "Add the sugar, lime juice, chili powder and salt. Once the sugar has dissolved, toss the asparagus in the pan along with a sprinkling of water to help them steam. Cover and cook for 5-6 minutes until the asparagus is tender.  (The timing may vary depending on the thickness of the spears) you can test with a skewer to check for this)",
+                    "ingredients": [
+                        {
+                            "id": 2009,
+                            "name": "chili powder",
+                            "localizedName": "chili powder",
+                            "image": "chili-powder.jpg"
+                        },
+                        {
+                            "id": 9160,
+                            "name": "lime juice",
+                            "localizedName": "lime juice",
+                            "image": "lime-juice.png"
+                        },
+                        {
+                            "id": 11011,
+                            "name": "asparagus",
+                            "localizedName": "asparagus",
+                            "image": "asparagus.png"
+                        },
+                        {
+                            "id": 19335,
+                            "name": "sugar",
+                            "localizedName": "sugar",
+                            "image": "sugar-in-bowl.png"
+                        },
+                        {
+                            "id": 14412,
+                            "name": "water",
+                            "localizedName": "water",
+                            "image": "water.png"
+                        },
+                        {
+                            "id": 2047,
+                            "name": "salt",
+                            "localizedName": "salt",
+                            "image": "salt.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 3065,
+                            "name": "skewers",
+                            "localizedName": "skewers",
+                            "image": "wooden-skewers.jpg"
+                        },
+                        {
+                            "id": 404645,
+                            "name": "frying pan",
+                            "localizedName": "frying pan",
+                            "image": "pan.png"
+                        }
+                    ],
+                    "length": {
+                        "number": 6,
+                        "unit": "minutes"
+                    }
+                }
+            ]
+        }
+    ],
+    "originalId": null,
+    "spoonacularSourceUrl": "https://spoonacular.com/indian-asparagus-with-ginger-lime-647795"
 }
 ]
 
