@@ -1,33 +1,17 @@
 import { useState } from "react";
 import Navbar from "../Navbar/Navbar";
-// import pudding from "../../Data/Pudding.js"
-// import vegan from "../../Data/Vegan.js"
+import Modal from "../Modal/Modal";
 import indianRecipe from "../../Data/IndianRecipe.js";
 import indian from "../../Data/Indian.js";
 export default function List() {
-    // const [isHovering, setIsHovering] = useState(false);
-    // const [hoveredRecipe, setHoveredRecipe] = useState("");
+
     const [clickedItem, setClickedItem] = useState("");
     const [clicked, setClicked] = useState(false);
-
-    // const handleMouseOver = (event) => {
-    //     setIsHovering(true);
-    //     setHoveredRecipe(event.target.innerText)
-    //     console.log('hovering')
-    //   };
-    // console.log(hoveredRecipe)
-
-    // const handleMouseOut = () => {
-    //   setIsHovering(false);
-    // };
 
     const handleClick = (event) => {
       setClicked(!clicked)
         setClickedItem(event.target.value);
-      // return (
-      //   <div>{clicked &&
-      //   recipeInfo(indianRecipe, clickedItem)}</div>
-      // )
+
     };
     console.log(clicked)
     console.log(clickedItem)
@@ -36,19 +20,15 @@ export default function List() {
         indian.map((item) => {
             const { id, title, image } = item;
             return (
-                // <div class="flex flex-wrap">
                 <div
                     key={id}
                     class="max-w-sm rounded overflow-hidden shadow-lg"
                 >
                     <img alt={title} src={image} class="w-full" />
-                    <div
-                        class="px-6 py-4"
-                        // onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}
-                    >
+                    <div class="px-6 py-4">
                         <div class="font-bold text-xl mb-2">{title}</div>
                         <button
-                            class="text-gray-700 text-base"
+                            class=""
                             value={title}
                             onClick={(event) => handleClick(event)}
                         >
@@ -68,22 +48,25 @@ export default function List() {
             );
         });
 
-    const recipeInfo = (indianRecipe, clickedItem) =>
+    const recipeInfo = (indianRecipe, setClicked) =>
         indianRecipe.map((item) => {
             // console.log(item)
             // console.log(item.title)
              console.log(clickedItem)
             if (clickedItem === item.title) {
+              
                 // console.log(hoveredRecipe)
+                //here render modal and pass in the following as props
                 return (
                     <>
-                        <div key={item.id}>
+                    <Modal glutenFree={item.glutenFree.toString()} vegan={item.vegan.toString()} clicked={clicked} setClicked={setClicked}/>
+                        {/* <div key={item.id}>
                             {item.title}
                             <br />
                             Gluten Free: {item.glutenFree.toString()}
                             <br />
                             Vegan: {item.vegan.toString()}
-                        </div>
+                        </div> */}
                     </>
                 );
             } else {
@@ -94,8 +77,7 @@ export default function List() {
     return (
         <>
             <Navbar />
-
-            <div>{clicked && recipeInfo(indianRecipe, clickedItem)}</div>
+            <div>{recipeInfo(indianRecipe, clickedItem)}</div>
             <div class="flex flex-wrap px-8 space-x-4 space-y-4">
                 {renderRecipes(indian)}
             </div>
