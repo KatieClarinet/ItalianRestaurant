@@ -3,10 +3,11 @@ import Navbar from "../Navbar/Navbar";
 import Modal from "../Modal/Modal";
 import indianRecipe from "../../Data/IndianRecipe.js";
 import indian from "../../Data/Indian.js";
-
-
+import BasketModal from "../BasketModal/BasketModal.js";
+import { ShoppingCartIcon } from "@heroicons/react/24/outline";
 
 export default function Menu() {
+    const [clicked, setClicked] = useState(false);
     //state for when 'more info' is clicked
     const [clickedItem, setClickedItem] = useState("");
     //equivalent to the to do list before items are added
@@ -24,16 +25,15 @@ export default function Menu() {
 
     //more Info modal
     const handleClick = (event) => {
+        console.log("handleClick")
         event.preventDefault();
         setClickedItem(event.target.value);
-        
     };
 
     //add to basket button
     const handleSubmit = async (event) => {
         event.preventDefault();
         setAddToBasket(event.target.value);
-        //  addItemToBasket(addToBasket)
     };
     console.log(addToBasket);
     console.log("basketItems", basketItems);
@@ -44,12 +44,9 @@ export default function Menu() {
             copy = [...copy, { title: addToBasket }];
             setBasketItems(copy);
             // console.log(setBasketItems)
-
         };
         addItemToBasket(addToBasket);
     }, [addToBasket]);
-    console.log(basketItems);
-
 
     const renderRecipes = (indian) =>
         indian.map((item) => {
@@ -80,13 +77,13 @@ export default function Menu() {
                         >
                             Add to basket
                         </button>
+                        
                     </div>
                 </div>
             );
         });
 
-    const dietaryInfo
-     = (indianRecipe) =>
+    const dietaryInfo = (indianRecipe) =>
         indianRecipe.map((item) => {
             if (clickedItem === item.title) {
                 return (
@@ -102,17 +99,48 @@ export default function Menu() {
             }
         });
 
+    const handleClick2 = (event) => {
+        setClicked(current => !current);
+        console.log("handleclick2");
+    };
+
+    const renderBasket = (basketItems) =>
+    basketItems.map((item) => {
+            if (clicked) {
+                return (
+                    <>
+                        <BasketModal
+                        title={item.title.toString()}
+                        />
+                    </>
+                );
+            } else {
+                return null;
+            }
+        });
+    
+
     return (
         <>
             <Navbar />
-            
-            <div>{dietaryInfo
-            (indianRecipe, clickedItem)}</div>
+            <button
+                            type="submit"
+                            className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                            value={basketItems}
+                            onClick={(event) => handleClick2(event)}
+                        >
+                            <span className="sr-only">Shopping Cart</span>
+                            <ShoppingCartIcon
+                                className="h-6 w-6"
+                                aria-hidden="true"
+                            />
+                        </button>
+            <div>{dietaryInfo(indianRecipe, clickedItem)}</div>
             <div class="flex flex-row flex-wrap px-8 space-x-4 space-y-4">
                 <div></div>
                 {renderRecipes(indian)}
             </div>
-           
+            <div>{renderBasket(basketItems)}</div>
         </>
     );
 }
