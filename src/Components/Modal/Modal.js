@@ -4,7 +4,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { ChatBubbleOvalLeftEllipsisIcon } from '@heroicons/react/24/outline'
 
 
-export default function Modal({glutenFree, vegan}) {
+export default function BasketModal({glutenFree, vegan}) {
   const [open, setOpen] = useState(true)
   const cancelButtonRef = useRef(null)
 

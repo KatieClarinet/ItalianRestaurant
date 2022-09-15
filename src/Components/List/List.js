@@ -3,7 +3,8 @@ import Navbar from "../Navbar/Navbar";
 import Modal from "../Modal/Modal";
 import indianRecipe from "../../Data/IndianRecipe.js";
 import indian from "../../Data/Indian.js";
-import Basket from "../Basket/Basket.js";
+
+
 
 export default function List() {
     //state for when 'more info' is clicked
@@ -25,6 +26,7 @@ export default function List() {
     const handleClick = (event) => {
         event.preventDefault();
         setClickedItem(event.target.value);
+        
     };
 
     //add to basket button
@@ -42,10 +44,12 @@ export default function List() {
             copy = [...copy, { title: addToBasket }];
             setBasketItems(copy);
             // console.log(setBasketItems)
+
         };
         addItemToBasket(addToBasket);
     }, [addToBasket]);
     console.log(basketItems);
+
 
     const renderRecipes = (indian) =>
         indian.map((item) => {
@@ -81,7 +85,8 @@ export default function List() {
             );
         });
 
-    const recipeInfo = (indianRecipe) =>
+    const dietaryInfo
+     = (indianRecipe) =>
         indianRecipe.map((item) => {
             if (clickedItem === item.title) {
                 return (
@@ -100,12 +105,14 @@ export default function List() {
     return (
         <>
             <Navbar />
-            {/* <Basket item={basketItems} /> */}
-            <div>{recipeInfo(indianRecipe, clickedItem)}</div>
+            
+            <div>{dietaryInfo
+            (indianRecipe, clickedItem)}</div>
             <div class="flex flex-row flex-wrap px-8 space-x-4 space-y-4">
                 <div></div>
                 {renderRecipes(indian)}
             </div>
+           
         </>
     );
 }
