@@ -11,7 +11,7 @@ import {
 const navigation = [
     { name: "Home", href: "/", current: true },
     { name: "Menu", href: "/menu", current: false },
-    { name: "Basket", href: "/basket", current: false },
+    // { name: "Basket", href: "/basket", current: false },
 ];
 
 function classNames(...classes) {
