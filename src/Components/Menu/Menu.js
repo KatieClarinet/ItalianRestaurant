@@ -39,6 +39,7 @@ export default function Menu() {
             // console.log(setBasketItems)
         };
         addItemToBasket(addToBasket);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [addToBasket]);
     console.log(basketItems)
     console.log(addToBasket)
