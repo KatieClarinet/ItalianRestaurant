@@ -1,12 +1,10 @@
 /* This example requires Tailwind CSS v2.0+ */
-import Navbar from "./Components/Navbar/Navbar";
-import Spices from "../src/Assets/Spices.jpg"
-// import Basket from "./Components/Basket/Basket";
-export default function App() {
+import Spices from "../../Assets/Spices.jpg"
+
+export default function Home() {
+    
     return (
         <>
-            <Navbar />
-            {/* <Basket /> */}
             <div className="relative overflow-hidden bg-white">
                 <div className="mx-auto max-w-7xl">
                     <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
