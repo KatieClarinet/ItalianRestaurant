@@ -18,17 +18,19 @@ export default function Home() {
                                 </span>
                             </h1>
                             <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                                Here you can order delicious Indian recipes.
+                                Here you can order delicious Indian recipes. Head to the menu tab to browse. If you have any dietary requirements, please select 'more info'.
                             </p>
                         </div>
                     </main>
 
                     <div />
                 </div>
+            
+            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            {/* <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2"> */}
+                <img className="h-40 w-full object-cover sm:h-72 md:h-96 lg:h-50 lg:w-full" src={Spices} alt="" />
+            {/* </div> */}
             </div>
-
-            <div className="">
-                <img className="w-full object-cover " src={Spices} alt="" />
             </div>
         </>
     );

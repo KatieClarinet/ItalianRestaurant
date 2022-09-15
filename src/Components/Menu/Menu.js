@@ -128,9 +128,11 @@ export default function Menu() {
     return (
         <>
             <Navbar />
+            <div class="inline-block bg-emerald-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 items-center">
+Basket: 
             <button
                             type="submit"
-                            className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                            className="rounded-full bg-emerald-700 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                             value={basketItems}
                             onClick={(event) => handleClick2(event)}
                         >
@@ -140,6 +142,7 @@ export default function Menu() {
                                 aria-hidden="true"
                             />
                         </button>
+            </div>
             <div>{dietaryInfo(indianRecipe, clickedItem)}</div>
             <div class="flex flex-row flex-wrap px-8 space-x-4 space-y-4">
                 <div></div>
