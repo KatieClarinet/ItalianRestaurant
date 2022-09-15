@@ -6,7 +6,7 @@ import indian from "../../Data/Indian.js";
 
 
 
-export default function List() {
+export default function Menu() {
     //state for when 'more info' is clicked
     const [clickedItem, setClickedItem] = useState("");
     //equivalent to the to do list before items are added
