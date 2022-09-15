@@ -11,14 +11,7 @@ export default function Menu() {
     //state for when 'more info' is clicked
     const [clickedItem, setClickedItem] = useState("");
     //equivalent to the to do list before items are added
-    const [basketItems, setBasketItems] = useState([
-        {
-            title: "test",
-        },
-        {
-            title: "test",
-        },
-    ]);
+    const [basketItems, setBasketItems] = useState("");
 
     //the items that we want to add
     const [addToBasket, setAddToBasket] = useState("");
@@ -47,6 +40,8 @@ export default function Menu() {
         };
         addItemToBasket(addToBasket);
     }, [addToBasket]);
+    console.log(basketItems)
+    console.log(addToBasket)
 
     const renderRecipes = (indian) =>
         indian.map((item) => {
@@ -102,22 +97,31 @@ export default function Menu() {
     const handleClick2 = (event) => {
         setClicked(current => !current);
         console.log("handleclick2");
+        console.log(clicked);
     };
 
-    const renderBasket = (basketItems) =>
-    basketItems.map((item) => {
-            if (clicked) {
-                return (
-                    <>
+    const renderBasket = (basketItems) => {
+        // if (basketItems.length > 0) {
+            console.log("from renderBasket clicked is true")
+            console.log(basketItems)
+            // basketItems.map((item) => {
+                // console.log(item)
+                if (clicked) {
+
+                    return (
+                        <>
                         <BasketModal
-                        title={item.title.toString()}
+                        items={basketItems}
                         />
                     </>
                 );
-            } else {
-                return null;
             }
-        });
+            // });
+            } 
+            // else {
+            //     return null;
+        // }
+    // };
     
 
     return (

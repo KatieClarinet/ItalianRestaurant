@@ -1,13 +1,13 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment, useRef, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { ChatBubbleOvalLeftEllipsisIcon } from '@heroicons/react/24/outline'
+import { ShoppingCartIcon } from '@heroicons/react/24/outline'
 
 
-export default function BasketModal({title}) {
+export default function BasketModal({items}) {
   const [open, setOpen] = useState(true)
   const cancelButtonRef = useRef(null)
-  console.log(title)
+  console.log(items)
   return (
     <><Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-10" initialFocus={cancelButtonRef} onClose={setOpen}>
@@ -38,18 +38,21 @@ export default function BasketModal({title}) {
                   <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                     <div className="sm:flex sm:items-start">
                       <div className="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-emerald-100 sm:mx-0 sm:h-10 sm:w-10">
-                        <ChatBubbleOvalLeftEllipsisIcon className="h-6 w-6 text-emerald-600" aria-hidden="true" />
+                        <ShoppingCartIcon className="h-6 w-6 text-emerald-600" aria-hidden="true" />
                       </div>
                       <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                         <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
                           Basket Items
                         </Dialog.Title>
-                        
                         <div className="mt-2">
                           <p className="text-sm text-gray-500">
-                             {title}
-                             {title}
-                             {title}
+                          {items.map(item => {
+        return (
+          <div key={item.id}>
+            <h2>{item.title}</h2>
+          </div>
+        );
+      })}
                           </p>
 
                         </div>
@@ -57,7 +60,7 @@ export default function BasketModal({title}) {
                     </div>
                   </div>
                   <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
-                    
+                  
                     <button
                       type="button"
                       className="mt-3 inline-flex w-full justify-center rounded-md border border-gray-300 bg-white px-4 py-2 text-base font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm"
